@@ -21,7 +21,7 @@ diffusion/dynamical embeddings, symmetry diagnostics, and TCI/informational conv
 ## Repository Layout
 
 ```
-
+```text
 CM-TCI/
 ├─ scripts/
 │   ├─ mandelbrot_boundary_sample_spyder.py
