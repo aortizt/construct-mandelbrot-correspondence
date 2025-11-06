@@ -1,22 +1,29 @@
-# Python bytecode
+# Byte-compiled / cache files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.pkl
 
-# Virtual environments
+# Environments
 .venv/
-.env/
 env/
-
-# OS clutter
-.DS_Store
-
-# Generated figures and numeric outputs
-outputs/
-*.png
-*.pdf
-*.txt
-*.csv
+venv/
+conda_env/
+.conda/
 
 # Spyder / Jupyter metadata
 .spyproject/
 .ipynb_checkpoints/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# VSCode / PyCharm / etc.
+.vscode/
+.idea/
+
+# Generated output folders (users can generate, but repo stays clean)
+outputs/
+figures/
